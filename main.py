@@ -1,6 +1,5 @@
-initial_weight = float(input("请输入您在地球上的初始体重(kg)：")
-weight_earth=initial_weight
-for year in range(1，11):
-    weight_earth += 0.5
-    weight_moon = weight_earth * 0.165
-    print(f"第{year}年 - 地球体重：{weight_earth}kg，月球体重：{weight_moon：.2f}kg")
+earth_weight=40
+moon_weight=earth_weight*0.165
+for i in range[1,11]:
+    earth_weight=earth_weight+0.5
+print(f"第{i}年：地球体重{earth_weight}kg，月球体重{moon_weight:.2f}kg")
